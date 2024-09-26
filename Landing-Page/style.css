@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(229,251,229);
+}
+
+/* header bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    font-family:  sans-serif;
+}
+
+header .logo img{
+    width: 18px;
+}
+
+/* logo and links on the left of header bar */
+
+.logo #shop{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: 600;
+    color: #000;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+
+.logo a:hover{
+    color: rgb(95,216,95);
+}
+
+.logo span{
+    color: rgb(95,216,95);
+}
+
+
+/* other links on the right of header bar */
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+.links a:hover{
+    color: rgb(95,216,95);
+}
+
+/* Start free trial */
+.links a#start{
+    background: rgb(34,139,87);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(34,139,87);
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.links a#start:hover{
+    color: #26bd19;
+    background: transparent;
+    transition: 0.8s;
+}
+
+
+/* navigation bar */
+nav{
+    display: flex;
+    gap: 30px;
+    padding-left: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color:  #26bd19;
+    transition: 0.5s;
+}
+
+/* main page */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 80px
+}
+
+main .text{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+main .text h4{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.text h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(40, 75, 57);
+    padding-top: 20px;
+}
+
+.text h5{
+    font-family: sans-serif;
+    color: #979797;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Install facebook */
+.text a{
+    background: rgb(34,139,87);
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(34,139,87);
+    transition: 0.8s;
+    box-shadow: 2px;
+}
+
+a:hover{
+    color: #26bd19;
+    background: transparent;
+    transform: translateX(-5px);
+}
+
+/* Dont have a store? */
+.text a#store{
+    color: rgb(34,139,87);
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.text a#store:hover{
+    color: rgb(95,216,95);
+}
+
+/* facebook and instagram page images */
+.text .pictures img{
+    width: 250px;
+    height: 300px;
+    padding-right: 30px;
+
+    /* border-top-left-radius: 5rem 10rem; */
+    /* border-radius: 1rem 2rem 3rem 4rem / 4rem 3rem 2rem 1rem; */
+    border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+    transition: border-radius 500ms ease-in-out;
+}
+
+.text .pictures img:hover{
+    border-radius: 79% 21% 29% 71% / 11% 74% 26% 89%;
+}
+
+/* sync, sell, manage section */
+main .actions{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 80px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+.actions h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.actions h5{
+    color: #979797;
+}
+
+.actions a{
+    color: #000;
+    font: 30px;
+    background-color: rgb(34,139,87);
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(34,139,87);
+    outline: 1px solid rgb(34,139,87);
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.actions a:hover{
+    background: transparent;
+    color: #26bd19;
+    transform: translateY(-10px);
+}
+
